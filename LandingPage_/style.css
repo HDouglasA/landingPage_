@@ -2,39 +2,39 @@
     margin: 0;
     padding: 0;
 }
-
 html {
     scroll-behavior: smooth;
 }
 
+
+/* Estilização Header */
 .cabecalho {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
 }
-
 .img-cabecalho {
     height: 9vh;
 }
-
 .nav-cabecalho {
     display: flex;
     gap: 1vw;
 }
-
-.link-cabecalho {
+.navegacao {
     font-size: 20px;
     color: black;
     text-decoration: none;
 }
-
 header nav a:hover {
     color: #ff9b3a;
-    transition: all 0.6s;
+    transition: all 0.5s;
 }
 
-.conteudo {
+
+/* Estilização main */
+.container-apresentacao {
     height: 75vh;
     border-top: 2px solid black;
     display: flex;
@@ -43,21 +43,18 @@ header nav a:hover {
     padding: 10vh 5vh;
     background: linear-gradient(68.15deg, cornsilk 1%, #fcec4f 85.61%);
 }
-
 .conteudo-apresentacao {
     display: flex;
     flex-direction: column;
     gap: 3vh;
     font-size: 24px;
 }
-
-.border {
+.borda-superior{
     border-top: 0.4px solid black;
     padding-top: 5%;
     font-size: 28px;
 }
-
-.link-conteudo {
+.navegacao-conteudo {
     text-align: center;
     font-size: 30px;
     color: black;
@@ -69,15 +66,18 @@ header nav a:hover {
     border-radius: 10px;
     box-shadow: 6px 6px 6px #0E1D2F;
 }
-
-main section section a:hover {
+.img-conteudo {
+    height: 60vh;
+}
+main section div a:hover {
     background-color: #ff9b3a;
     transform: scale(1.1);
     transition: all 0.4s;
 }
 
+
 h1 {
-    font-size: 45px;
+    font-size: 50px;
 }
 h2 {
     font-size: 45px;
@@ -86,24 +86,19 @@ h3 {
     font-size: 30px;
 }
 
-.img-conteudo {
-    height: 50vh;
-}
 
 .container-mae-nossa-equipe {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2vh;
-    margin-top: 10vh;
+    margin-top: 7vh;
     padding-top: 2vh;
 }
-
 .container-nossa-equipe {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
 .container-pessoa-equipe {
     display: flex;
     flex-direction: column;
@@ -114,25 +109,27 @@ h3 {
     font-size: 20px;
     box-shadow: 0px 0px 5px 0px #0E1D2F
 }
-
-.img-perfil {
+.img-pessoa-equipe{
     height: 55vh;
     width: 100%;
     border-radius: 8px;
 }
+.borda-pessoa-equipe{
+    border-top: 0.4px solid black;
+    padding-top: 2vh;
+}
+
 
 .container-mae-nossos-clientes{
     display: flex;
     flex-direction: column;
     margin: 1%;
-    padding-top: 1vh;
-    margin-top: 10vh;
+    padding-top: 2vh;
+    margin-top: 6vh;
 }
-
 .container-mae-nossos-clientes h2{
     text-align: center;
 }
-
 .container-cliente {
     display: flex;
     align-items: center;
@@ -143,7 +140,6 @@ h3 {
     box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.25);
     gap: 3%;
 }
-
 .img-cliente {
     height: 30vh;
     width: 30vh;
@@ -151,23 +147,22 @@ h3 {
     box-shadow: 0px 6px 6px #0E1D2F;  
     border: 8px solid #ff9b3a; 
 }
-
 .container-cliente h4 {
     color: #fe7e02;
-    margin-top: 3%;
-    font-size: 28px;
+    margin-top: 2%;
+    font-size: 27px;
 }
 
+
 .container-mae-contato{
-    border-top: 2px solid black;
+    border-top: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 12vh;
     background: linear-gradient(68.15deg, cornsilk 1%, #fcec4f 85.61%);
     padding: 2% 4%;
 }
-
 .contato{
     display: flex;
     flex-direction: column;
@@ -184,13 +179,14 @@ h3 {
     height: 37vh;
     width: 37vw;
 }
+
+
 .formulario{
     display: flex;
     flex-direction: column;
     gap: 2vh;
     height: 85vh;
     width: 35vw;
-
 }
 .formulario input {
     height: 6vh;
@@ -198,7 +194,7 @@ h3 {
     border-radius: 7px;
     border: none;
     background-color: #D3D3D3;
-    font-size: 18px;
+    font-size: 17px;
     padding-left: 2%;
 }
 input:focus{
@@ -206,19 +202,18 @@ input:focus{
     border: 2px solid #ff9b3a; 
     outline: none;
 }
+.formulario textarea {
+    border-radius: 7px;
+    border: 1.px solid black;
+    font-size: 17px;
+    height: 25vh;
+    padding-left: 2%;
+    padding-top: 1%;
+}
 textarea:focus{
     box-shadow: none;
     border: 2px solid #ff9b3a; 
     outline: none;
-}
-
-.formulario textarea {
-    border-radius: 7px;
-    border: 1.px solid black;
-    font-size: 18px;
-    height: 25vh;
-    padding-left: 2%;
-    padding-top: 1%;
 }
 .formulario button {
     height: 6vh;
@@ -232,12 +227,9 @@ button:hover{
     background-color: #d58300;
 }
 
-#borda-topo {
-    border-top: 0.4px solid black;
-    padding-top: 2vh;
-}
 
-.rodape {
+/* Estilização Rodapé */
+.container-rodape {
     display: flex;
     flex-direction: column;
     padding-top: 5vh;
@@ -246,21 +238,23 @@ button:hover{
     align-items: center;
     padding-bottom: 2vh;
     color: white;
-    font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    gap: 1vh;
 }
-.rodape-site {
+.rodape{
     display: flex;
     background-color: #344150;
     justify-content: center;
     align-items: center;   
-    padding-bottom: 2vh;
-    margin-bottom: 4vh;
+    padding-bottom: 1vh;
+    margin-bottom: 3vh;
     gap: 6vw;
     border-bottom: 0.4px solid black;
 }
-.img-rodape {
+.img-logo-rodape {
     height: 8vh;
     width: 8vw;
+}
+.img-rede-social {
+    height: 7vh;
+    margin-top: 1vh;
 }

@@ -2,7 +2,7 @@
 
 ## Landing Page Better Call Saul
 
-### Quem Fez:
+### Quem fez:
 
 - H Douglas A
 
@@ -10,7 +10,7 @@
 
 - https://sad-jewel.surge.sh/
 
-### Tecnologias Ultilizadas 
+### Tecnologias Ultilizadas:
 
 <div> 
   <img height="40px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="svg-html"/>

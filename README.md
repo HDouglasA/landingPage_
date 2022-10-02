@@ -1,10 +1,10 @@
- <img height="400px" width="100%" src="https://user-images.githubusercontent.com/102442943/192120025-70eac8ea-e0cc-455c-96ad-fe4bb56e9c14.jpg" alt="capa-bcs"/>
+![capa_bcs](https://user-images.githubusercontent.com/102442943/193480306-0d7e26b9-cda2-4806-95c8-23e63c5310d4.png)
 
 ## Landing Page Better Call Saul
 
-### Quem fez:
+### Descrição:
 
-- H Douglas A
+- Landing Page Desenvolvida para estudo e fixação de conteúdos de Front-end, tais como Html, Css, Flexbox, Grid e Responsividade.
 
 ### Link Surge: 
 

@@ -4,11 +4,11 @@
 
 ### Descrição:
 
-- Landing Page Desenvolvida para estudo e fixação de conteúdos de Front-end, tais como Html, Css, Flexbox, Grid e Responsividade.
+Landing Page Desenvolvida para estudo e fixação de conteúdos de Front-end, tais como Html, Css, Flexbox, Grid e Responsividade.
 
 ### Link Surge: 
 
-- https://sad-jewel.surge.sh/
+https://sad-jewel.surge.sh/
 
 ### Tecnologias Ultilizadas:
 

@@ -6,7 +6,7 @@
 
 Landing Page Desenvolvida para estudo e fixação de conteúdos de Front-end, tais como Html, Css, Flexbox, Grid e Responsividade.
 
-### Link Surge: 
+### Link: 
 
 https://sad-jewel.surge.sh/
 
